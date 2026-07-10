@@ -1,0 +1,14 @@
+mkdir -p D1/D2/D3
+touch D1/D2/file.txt
+echo "Якушева Алина" > D1/D2/file.txt
+ln D1/D2/file.txt D1/D2/D3/file_hard.txt
+ln -s ../file.txt D1/D2/D3/file_soft.txt
+ls -li D1/D2 D1/D2/D3
+mv D1/D2/file.txt D1/
+cat D1/D2/D3/file_hard.txt
+cat D1/D2/D3/file_soft.txt
+rm -r D1/D2
+find ~ -type f -mtime -1
+type find
+file /usr/bin/find
+file /boot/initrd.img*

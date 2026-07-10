@@ -1,0 +1,283 @@
+Script started on 2026-07-06 18:19:14+07:00 [TERM="screen.xterm-256color" TTY="/dev/pts/48" COLUMNS="85" LINES="30"]
+[?2004h[01;32meltex-v41@eltex-2026-summer[00m:[01;34m~[00m$ д[Kls
+ls           lsb_release  lsinitramfs  lslocks      lsmod        lspci
+lsattr       lscpu        lsipc        lslogins     lsns         lsusb
+lsblk        lsfd         lsirq        lsmem        lsof         
+[01;32meltex-v41@eltex-2026-summer[00m:[01;34m~[00m$ ls[K[Kecho $HIST
+$HISTCMD       $HISTCONTROL   $HISTFILE      $HISTFILESIZE  $HISTSIZE
+[01;32meltex-v41@eltex-2026-summer[00m:[01;34m~[00m$ echo $HISTFILESIZE
+[?2004l2000
+[?2004h[01;32meltex-v41@eltex-2026-summer[00m:[01;34m~[00m$ ls -d ~/.*
+[?2004l/home/eltex-v41/.bash_history  /home/eltex-v41/.profile
+/home/eltex-v41/.bash_logout   /home/eltex-v41/.report_part1.txt.swo
+/home/eltex-v41/.bashrc        [0m[00;90m/home/eltex-v41/.report_part1.txt.swp[0m
+[01;34m/home/eltex-v41/.config[0m        /home/eltex-v41/.viminfo
+/home/eltex-v41/.log
+[?2004h[01;32meltex-v41@eltex-2026-summer[00m:[01;34m~[00m$ export HISTTIMEFORMAT="%d.$m.$Y [C[1P[1@%[C[C[C[1P[1@%[C[C%H:&M[K[K%M:%S "
+[?2004l[?2004h[01;32meltex-v41@eltex-2026-summer[00m:[01;34m~[00m$ history
+[?2004l    1  06.07.2026 18:19:14 screen
+    2  06.07.2026 18:19:14 top
+    3  06.07.2026 18:19:14 screen
+    4  06.07.2026 18:19:14 screen -dmS top top
+    5  06.07.2026 18:19:14 screen -ls
+    6  06.07.2026 18:19:14 screen -r top top
+    7  06.07.2026 18:19:14 screen -ls
+    8  06.07.2026 18:19:14 screen -r top top
+    9  06.07.2026 18:19:14 screen -ls
+   10  06.07.2026 18:19:14 screen -r top
+   11  06.07.2026 18:19:14 screen -S top
+   12  06.07.2026 18:19:14 screen -ls
+   13  06.07.2026 18:19:14 screen -r top
+   14  06.07.2026 18:19:14 screen -S 59649.top -X quit
+   15  06.07.2026 18:19:14 screen -r top
+   16  06.07.2026 18:19:14 screen -S report
+   17  06.07.2026 18:19:14 screen -ls
+   18  06.07.2026 18:19:14 logout
+   19  06.07.2026 18:19:14 screen -ls
+   20  06.07.2026 18:19:14 screen -r report
+   21  06.07.2026 18:19:14 screen -ls
+   22  06.07.2026 18:19:14 screen -r report
+   23  06.07.2026 18:19:14 exit
+   24  06.07.2026 18:19:14 logout
+   25  06.07.2026 18:22:54 echo $HISTFILESIZE
+   26  06.07.2026 18:24:59 ls -d ~/.*
+   27  06.07.2026 18:27:01 export HISTTIMEFORMAT="%d.%m.%Y %H:%M:%S "
+   28  06.07.2026 18:27:07 history
+[?2004h[01;32meltex-v41@eltex-2026-summer[00m:[01;34m~[00m$ historyexport HISTTIMEFORMAT="%d.%m.%Y %H:%M:%S "[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -d ~/.*[Kecho $HISTFILESIZE[12Plogoutecho $HISTFILESIZE[8Pls -d ~/.*export HISTTIMEFORMAT="%d.%m.%Y %H:%M:%S "[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chistory[K[Kdate
+[?2004lMon Jul  6 06:27:34 PM +07 2026
+[?2004h[01;32meltex-v41@eltex-2026-summer[00m:[01;34m~[00m$ history ?[K| tail
+[?2004l   21  06.07.2026 18:19:14 screen -ls
+   22  06.07.2026 18:19:14 screen -r report
+   23  06.07.2026 18:19:14 exit
+   24  06.07.2026 18:19:14 logout
+   25  06.07.2026 18:22:54 echo $HISTFILESIZE
+   26  06.07.2026 18:24:59 ls -d ~/.*
+   27  06.07.2026 18:27:01 export HISTTIMEFORMAT="%d.%m.%Y %H:%M:%S "
+   28  06.07.2026 18:27:07 history
+   29  06.07.2026 18:27:34 date
+   30  06.07.2026 18:28:46 history | tail
+[?2004h[01;32meltex-v41@eltex-2026-summer[00m:[01;34m~[00m$ tail -5 ~/.bash_history
+[?2004lscreen -r report
+screen -ls
+screen -r report
+exit
+logout
+[?2004h[01;32meltex-v41@eltex-2026-summer[00m:[01;34m~[00m$ [7mexport PROMPT_COMMAND='history -a'[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexport PROMPT_COMMAND='history -a'
+[?2004l[?2004h[01;32meltex-v41@eltex-2026-summer[00m:[01;34m~[00m$ pwd
+[?2004l/home/eltex-v41
+[?2004h[01;32meltex-v41@eltex-2026-summer[00m:[01;34m~[00m$ pwdexport PROMPT_COMMAND='history -a'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Ptail -5 ~/.bash_history[9Phistory | tail
+[?2004l   25  06.07.2026 18:22:54 echo $HISTFILESIZE
+   26  06.07.2026 18:24:59 ls -d ~/.*
+   27  06.07.2026 18:27:01 export HISTTIMEFORMAT="%d.%m.%Y %H:%M:%S "
+   28  06.07.2026 18:27:07 history
+   29  06.07.2026 18:27:34 date
+   30  06.07.2026 18:28:46 history | tail
+   31  06.07.2026 18:29:21 tail -5 ~/.bash_history
+   32  06.07.2026 18:29:33 export PROMPT_COMMAND='history -a'
+   33  06.07.2026 18:29:44 pwd
+   34  06.07.2026 18:29:50 history | tail
+[?2004h[01;32meltex-v41@eltex-2026-summer[00m:[01;34m~[00m$ history | tailpwd[Kexport PROMPT_COMMAND='history -a'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Ptail -5 ~/.bash_history
+[?2004lexport PROMPT_COMMAND='history -a'
+#1783337384
+pwd
+#1783337390
+history | tail
+[?2004h[01;32meltex-v41@eltex-2026-summer[00m:[01;34m~[00m$ DATE=$()d)a)t)e)
+[?2004l[?2004h[01;32meltex-v41@eltex-2026-summer[00m:[01;34m~[00m$ echo $DATE
+[?2004lMon Jul 6 06:32:06 PM +07 2026
+[?2004h[01;32meltex-v41@eltex-2026-summer[00m:[01;34m~[00m$ TIME=$()d)a)t)e) )+)%)H):)%)M):)%)S)
+[?2004l[?2004h[01;32meltex-v41@eltex-2026-summer[00m:[01;34m~[00m$ echo $TIME
+[?2004l18:35:56
+[?2004h[01;32meltex-v41@eltex-2026-summer[00m:[01;34m~[00m$ DATE_Y[KTIME [K="$DATE $TIME"
+[?2004l[?2004h[01;32meltex-v41@eltex-2026-summer[00m:[01;34m~[00m$ echo DA[K[K%[K$DATA_TIME
+[?2004l
+[?2004h[01;32meltex-v41@eltex-2026-summer[00m:[01;34m~[00m$ echo $DATA_TIME[1P_TIMEE_TIME
+[?2004lMon Jul 6 06:32:06 PM +07 2026 18:35:56
+[?2004h[01;32meltex-v41@eltex-2026-summer[00m:[01;34m~[00m$ ls /bin /sbin | grep '{[K[0-9]"[K'
+[?2004laddr2line
+b2sum
+base32
+base64
+bunzip2
+bzip2
+bzip2recover
+c89
+c89-gcc
+c99
+c99-gcc
+cpan5.36-x86_64-linux-gnu
+cpp-12
+diff3
+enc2xs
+gcc-12
+gcc-ar-12
+gcc-nm-12
+gcc-ranlib-12
+gcov-12
+gcov-dump-12
+gcov-tool-12
+grub-menulst2cfg
+grub-mkpasswd-pbkdf2
+grub-syslinux2cfg
+h2ph
+h2xs
+i386
+linux32
+linux64
+lto-dump-12
+md5sum
+md5sum.textutils
+pdb3
+pdb3.11
+perl5.36.0
+perl5.36-x86_64-linux-gnu
+ping4
+ping6
+pl2pm
+pod2html
+pod2man
+pod2text
+pod2usage
+py3clean
+py3compile
+py3versions
+pydoc3
+pydoc3.11
+pygettext3
+pygettext3.11
+python3
+python3.11
+sha1sum
+sha224sum
+sha256sum
+sha384sum
+sha512sum
+ssh-argv0
+systemd-id128
+traceroute6
+traceroute6.db
+x86_64
+x86_64-linux-gnu-addr2line
+x86_64-linux-gnu-ar
+x86_64-linux-gnu-as
+x86_64-linux-gnu-c++filt
+x86_64-linux-gnu-cpp
+x86_64-linux-gnu-cpp-12
+x86_64-linux-gnu-dwp
+x86_64-linux-gnu-elfedit
+x86_64-linux-gnu-gcc
+x86_64-linux-gnu-gcc-12
+x86_64-linux-gnu-gcc-ar
+x86_64-linux-gnu-gcc-ar-12
+x86_64-linux-gnu-gcc-nm
+x86_64-linux-gnu-gcc-nm-12
+x86_64-linux-gnu-gcc-ranlib
+x86_64-linux-gnu-gcc-ranlib-12
+x86_64-linux-gnu-gcov
+x86_64-linux-gnu-gcov-12
+x86_64-linux-gnu-gcov-dump
+x86_64-linux-gnu-gcov-dump-12
+x86_64-linux-gnu-gcov-tool
+x86_64-linux-gnu-gcov-tool-12
+x86_64-linux-gnu-gold
+x86_64-linux-gnu-gp-archive
+x86_64-linux-gnu-gp-collect-app
+x86_64-linux-gnu-gp-display-html
+x86_64-linux-gnu-gp-display-src
+x86_64-linux-gnu-gp-display-text
+x86_64-linux-gnu-gprof
+x86_64-linux-gnu-gprofng
+x86_64-linux-gnu-ld
+x86_64-linux-gnu-ld.bfd
+x86_64-linux-gnu-ld.gold
+x86_64-linux-gnu-lto-dump
+x86_64-linux-gnu-lto-dump-12
+x86_64-linux-gnu-nm
+x86_64-linux-gnu-objcopy
+x86_64-linux-gnu-objdump
+x86_64-linux-gnu-ranlib
+x86_64-linux-gnu-readelf
+x86_64-linux-gnu-size
+x86_64-linux-gnu-strings
+x86_64-linux-gnu-strip
+dumpe2fs
+e2freefrag
+e2fsck
+e2image
+e2label
+e2mmpstatus
+e2scrub
+e2scrub_all
+e2undo
+e4crypt
+e4defrag
+fsck.ext2
+fsck.ext3
+fsck.ext4
+killall5
+mke2fs
+mkfs.ext2
+mkfs.ext3
+mkfs.ext4
+resize2fs
+tune2fs
+update-grub2
+[?2004h[01;32meltex-v41@eltex-2026-summer[00m:[01;34m~[00m$ ls /bin /sbin | grep '[0-9]'[13Pecho $DATE_TIMEA_TIMEDATE_TIME="$DATE $TIME"[13Pecho $TIMETIME=$(date +%H:%M:%S)[12Pecho $TIMEDATE_TIME="$DATE $TIME"[8Pecho $DATA_TIMEE_TIMEls /bin /sbin | grep '[0-9]'[Kусрщ[K[K[K[Kecho $USER
+[?2004leltex-v41
+[?2004h[01;32meltex-v41@eltex-2026-summer[00m:[01;34m~[00m$ echo $HOSTNAME
+[?2004leltex-2026-summer
+[?2004h[01;32meltex-v41@eltex-2026-summer[00m:[01;34m~[00m$ PS1="${}U}S}E}R}[C@${}H}O}S}T}N}A}M}E}[C-$(date +%H:%M)> "[C[1@P[1@R[1@O[1@M[1@T[1@_[1@C[1@O[1@M[1@M[1@ANPS1="${USER}@${HOSTNAME}-$(date +%H:%M)> " [A[01;32meltex-v41@eltex-2026-summer[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[CDPS1="${USER}@${HOSTNAME}-$(date +%H:%M)> "[A[01;32meltex-v41@eltex-2026-summer[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C=PS1="${USER}@${HOSTNAME}-$(date +%H:%M)> "[A[01;32meltex-v41@eltex-2026-summer[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C"PS1="${USER}@${HOSTNAME}-$(date +%H:%M)> "[A[01;32meltex-v41@eltex-2026-summer[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[CPS1="${USER}@${HOSTNAME}-$(date +%H:%M)> [1P"[A[01;32meltex-v41@eltex-2026-summer[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C'PS1="${USER}@${HOSTNAME}-$(date +%H:%M)> "[A[01;32meltex-v41@eltex-2026-summer[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C'
+[?2004l[?2004h[01;32meltex-v41@eltex-2026-summer[00m:[01;34m~[00m$ export PS1
+[?2004l[?2004h[01;32meltex-v41@eltex-2026-summer[00m:[01;34m~[00m$ bash
+[?2004l[?2004h[01;32meltex-v41@eltex-2026-summer[00m:[01;34m~[00m$ export PS1PROMT_COMMAND='PS1="${USER}@${HOSTNAME}-$(date +%H:%M)> "'[A[01;32meltex-v41@eltex-2026-summer[00m:[01;34m~[00m$ echo $HOSTNAME[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4PUSERHOSTNAMEPROMT_COMMAND='PS1="${USER}@${HOSTNAME}-$(date +%H:%M)> "'[A[01;32meltex-v41@eltex-2026-summer[00m:[01;34m~[00m$ export PS1[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kecho "$PS1"
+[?2004l${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ 
+[?2004h[01;32meltex-v41@eltex-2026-summer[00m:[01;34m~[00m$ [7mPS1="${USER}@${HOSTNAME}-$(date +%H:%M)> "[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CPS1="${USER}@${HOSTNAME}-$(date +%H:%M)> "
+[?2004l[?2004heltex-v41@eltex-2026-summer-18:47> PS1="${USER}@${HOSTNAME}-$(date +%H:%M)> "[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "$PS1"[K[1Pxport PS1
+[?2004l[?2004heltex-v41@eltex-2026-summer-18:47> ифср[K[K[K[Kexport PS1PS1="${USER}@${HOSTNAME}-$(date +%H:%M)> "[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "$PS1"[K[1Pxport PS1PROMT_COMMAND='PS1="${USER}@${HOSTNAME}-$(date +%H:%M)> "'[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho $HOSTNAME[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4PUSERls /bin /sbin | grep '[0-9]'[18Pecho $USERHOSTNAMEPROMT_COMMAND='PS1="${USER}@${HOSTNAME}-$(date +AND='PS1="${USER}@${HOSTNAME}-$(date +%H:%M)> "'[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho $HOSTNAME[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4PUSERls /bin /sbin | grep '[0-9]'[18Pecho $USERHOSTNAMEPROMT_COMMAND='PS1="${USER}@${HOSTNAME}-$(date +%H:%M)> "'[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexport PS1[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccho "$PS1"PS1="${USER}@${HOSTNAME}-$(date +%H:%M)> "[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexport PS1[K[Kbash
+[?2004l[?2004h[01;32meltex-v41@eltex-2026-summer[00m:[01;34m~[00m$ export PS1PS1="${USER}@${HOSTNAME}-$(date +%H:%M)> "
+[?2004l[?2004heltex-v41@eltex-2026-summer-18:48> PS1="${USER}@${HOSTNAME}-$(date +%H:%M)> "[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexport PS1[K
+[?2004l[?2004heltex-v41@eltex-2026-summer-18:48> ифыр [K[K[K[K[Kbash --nors[Kc
+[?2004l[?2004heltex-v41@eltex-2026-summer-18:48> mkdir ![K~/"$)[K(date +%Y)"-{01..12}
+[?2004l[?2004heltex-v41@eltex-2026-summer-18:48> ls ~
+[?2004l2026-01  2026-03  2026-05  2026-07  2026-09  2026-11  report_part1.txt
+2026-02  2026-04  2026-06  2026-08  2026-10  2026-12
+[?2004heltex-v41@eltex-2026-summer-18:48> exit
+[?2004lexit
+[?2004heltex-v41@eltex-2026-summer-18:48> bash --norc[Kучше[K[K[K[Kexit
+[?2004lexit
+[?2004heltex-v41@eltex-2026-summer-18:47> bashexport PS1[6Pbash[Kexit
+[?2004lexit
+[?2004h[01;32meltex-v41@eltex-2026-summer[00m:[01;34m~[00m$ bash[Kexit
+[?2004lexit
+Script done.
+[?2004h[01;32meltex-v41@eltex-2026-summer[00m:[01;34m~[00m$ [7mls -l ~/${USER}_part.log[27mls -l ~/${USER}_part.log
+[?2004lls: cannot access '/home/eltex-v41/eltex-v41_part.log': No such file or directory
+[?2004h[01;32meltex-v41@eltex-2026-summer[00m:[01;34m~[00m$ ls -l ~/${USER}_part.log[1Pscript ~/$USER_part.loglogout[Kscript ~/$USER_part.logls -l ~/${USER}_part.log[K[7mls -la ~[27mls -la ~
+[?2004ltotal 124
+drwxr-x--- 15 eltex-v41 eltex-v41  4096 Jul  6 18:52 [0m[01;34m.[0m
+drwxr-xr-x 49 root      root       4096 Jul  6 12:27 [01;34m..[0m
+drwxr-xr-x  2 eltex-v41 eltex-v41  4096 Jul  6 18:52 [01;34m2026-01[0m
+drwxr-xr-x  2 eltex-v41 eltex-v41  4096 Jul  6 18:52 [01;34m2026-02[0m
+drwxr-xr-x  2 eltex-v41 eltex-v41  4096 Jul  6 18:52 [01;34m2026-03[0m
+drwxr-xr-x  2 eltex-v41 eltex-v41  4096 Jul  6 18:52 [01;34m2026-04[0m
+drwxr-xr-x  2 eltex-v41 eltex-v41  4096 Jul  6 18:52 [01;34m2026-05[0m
+drwxr-xr-x  2 eltex-v41 eltex-v41  4096 Jul  6 18:52 [01;34m2026-06[0m
+drwxr-xr-x  2 eltex-v41 eltex-v41  4096 Jul  6 18:52 [01;34m2026-07[0m
+drwxr-xr-x  2 eltex-v41 eltex-v41  4096 Jul  6 18:52 [01;34m2026-08[0m
+drwxr-xr-x  2 eltex-v41 eltex-v41  4096 Jul  6 18:52 [01;34m2026-09[0m
+drwxr-xr-x  2 eltex-v41 eltex-v41  4096 Jul  6 18:52 [01;34m2026-10[0m
+drwxr-xr-x  2 eltex-v41 eltex-v41  4096 Jul  6 18:52 [01;34m2026-11[0m
+drwxr-xr-x  2 eltex-v41 eltex-v41  4096 Jul  6 18:52 [01;34m2026-12[0m
+-rw-------  1 eltex-v41 eltex-v41  1389 Jul  6 18:54 .bash_history
+-rw-r--r--  1 eltex-v41 eltex-v41   220 Mar 30  2024 .bash_logout
+-rw-r--r--  1 eltex-v41 eltex-v41  3526 Mar 30  2024 .bashrc
+drwx------  3 eltex-v41 eltex-v41  4096 Jul  6 12:59 [01;34m.config[0m
+-rw-r--r--  1 eltex-v41 eltex-v41 13941 Jul  6 18:54 .log
+-rw-r--r--  1 eltex-v41 eltex-v41   807 Mar 30  2024 .profile
+-rw-r--r--  1 eltex-v41 e
