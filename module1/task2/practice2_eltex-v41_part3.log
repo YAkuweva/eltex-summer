@@ -1,0 +1,219 @@
+Script started on 2026-07-10 12:05:16+07:00 [TERM="xterm-256color" TTY="/dev/pts/19" COLUMNS="120" LINES="30"]
+[?2004h]0;eltex-v41@eltex-2026-summer: ~[01;32meltex-v41@eltex-2026-summer[00m:[01;34m~[00m$ exitcat practice2_${USER}_part2.logexit[Ktail -20 practice2_${USER}_part2.log[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pls -lh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Psh root@172.16.9.215rm practice2_eltex-v41_part2.log[11Pssh root@172.16.9.215
+[?2004lWelcome to Ubuntu 24.04.2 LTS (GNU/Linux 6.8.0-134-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Fri Jul 10 05:05:20 AM UTC 2026
+
+  System load:  0.0                Processes:              110
+  Usage of /:   41.8% of 14.66GB   Users logged in:        0
+  Memory usage: 5%                 IPv4 address for ens18: 172.16.9.215
+  Swap usage:   0%
+
+
+Expanded Security Maintenance for Applications is not enabled.
+
+73 updates can be applied immediately.
+4 of these updates are standard security updates.
+To see these additional updates run: apt list --upgradable
+
+1 additional security update can be applied with ESM Apps.
+Learn more about enabling ESM Apps service at https://ubuntu.com/esm
+
+
+Якушева Алина
+Wed Jul  8 05:34:26 AM UTC 2026
+Last login: Fri Jul 10 04:37:41 2026 from 172.16.8.4
+[?2004h]0;root@eltex-practice2-v41: ~root@eltex-practice2-v41:~# [7mgit config --global user.name "ТВОЙ_ЛОГИН_GITHUB"[27m
+[7mgit config --global user.email "ТВОЯ_ПОЧТА"[27m
+[7mgit config --global init.defaultBranch main[27m[A[Agit config --global user.name "ТВОЙ_ЛОГИН_GITHUB"
+git config --global user.email "ТВОЯ_ПОЧТА"
+git config --global init.defaultBranch main[A[Aexit[K
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit config --global user.name "ТВОЙ_ЛОГИН_GITHUB"
+git config --global user.email "ТВОЯ_ПОЧТА"
+git config --global init.defaultBranch main[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"Y"a"k"u"w"e"v"a"[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"y"a"k"u"a"l"i"n"@"g"m"a"i"l"."c"o"n"[1P"m"
+
+[?2004l[?2004h]0;root@eltex-practice2-v41: ~root@eltex-practice2-v41:~# [7mssh-keygen -t ed25519 -f ~/.ssh/eltex-v41[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pssh-keygen -t ed25519 -f ~/.ssh/eltex-v4[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7mapt update[27m
+[7mapt install git gh -y[27m[A]0;root@eltex-practice2-v41: ~root@eltex-practice2-v41:~# apt update
+apt install git gh -y
+[?2004l[33m0% [Working][0m            Get:1 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+[33m0% [Waiting for headers] [1 InRelease 14.2 kB/126 kB 11%][0m                                                         Hit:2 http://ru.archive.ubuntu.com/ubuntu noble InRelease
+[33m                                                         0% [1 InRelease 14.2 kB/126 kB 11%][0m[33m0% [Waiting for headers] [1 InRelease 14.2 kB/126 kB 11%][0m                                                         Get:3 http://ru.archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+[33m0% [3 InRelease 11.8 kB/126 kB 9%] [1 InRelease 17.1 kB/126 kB 14%][0m[33m                                                                   0% [1 InRelease 79.3 kB/126 kB 63%][0m[33m0% [Waiting for headers] [1 InRelease 90.9 kB/126 kB 72%][0m                                                         Hit:4 http://ru.archive.ubuntu.com/ubuntu noble-backports InRelease
+[33m                                                         0% [1 InRelease 114 kB/126 kB 90%][0m[33m                                  0% [Waiting for headers][0m[33m0% [Waiting for headers][0m[33m23% [Waiting for headers][0m                         Get:5 http://ru.archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1,092 kB]
+[33m23% [5 Packages 3,785 B/1,092 kB 0%] [Waiting for headers][0m                                                          Get:6 http://security.ubuntu.com/ubuntu noble-security/main amd64 Components [44.8 kB]
+[33m30% [5 Packages 406 kB/1,092 kB 37%] [6 Components-amd64 2,659 B/44.8 kB 6%][0m[33m                                                                            39% [5 Packages 936 kB/1,092 kB 86%][0m[33m39% [6 Components-amd64 store 0 B] [5 Packages 936 kB/1,092 kB 86%][0m[33m                                                                   39% [5 Packages 936 kB/1,092 kB 86%] [Waiting for headers][0m[33m                                                          42% [Waiting for headers] [Waiting for headers][0m                                               Get:7 http://ru.archive.ubuntu.com/ubuntu noble-updates/main Translation-en [269 kB]
+[33m42% [7 Translation-en 14.8 kB/269 kB 5%] [Waiting for headers][0m[33m44% [5 Packages store 0 B] [7 Translation-en 123 kB/269 kB 46%] [Waiting for headers][0m[33m                                                                                     46% [5 Packages store 0 B] [Waiting for headers][0m                                                Get:8 http://ru.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Packages [1,225 kB]
+[33m47% [5 Packages store 0 B] [8 Packages 45.4 kB/1,225 kB 4%] [Waiting for headers][0m                                                                                 Get:9 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Components [76.3 kB]
+[33m57% [5 Packages store 0 B] [8 Packages 657 kB/1,225 kB 54%] [9 Components-amd64 2,658 B/76.3 kB 3%][0m                                                                                                   Get:10 http://ru.archive.ubuntu.com/ubuntu noble-updates/restricted Translation-en [276 kB]
+[33m67% [5 Packages store 0 B] [10 Translation-en 59.7 kB/276 kB 22%] [9 Components-amd64 15.7 kB/76.3 kB 21%][0m[33m                                                                                                          71% [5 Packages store 0 B] [9 Components-amd64 21.5 kB/76.3 kB 28%][0m                                                                   Get:11 http://ru.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1,660 kB]
+[33m71% [5 Packages store 0 B] [11 Packages 0 B/1,660 kB 0%] [9 Components-amd64 21.5 kB/76.3 kB 28%][0m[33m                                                                                                 93% [11 Packages 1,295 kB/1,660 kB 78%] [9 Components-amd64 59.1 kB/76.3 kB 77%][0m[33m93% [7 Translation-en store 0 B] [11 Packages 1,295 kB/1,660 kB 78%] [9 Components-amd64 59.1 kB/76.3 kB 77%][0m[33m                                                                                                             93% [7 Translation-en store 0 B] [11 Packages 1,295 kB/1,660 kB 78%][0m[33m                                                                    98% [11 Packages 1,594 kB/1,660 kB 96%][0m[33m99% [8 Packages store 0 B] [11 Packages 1,614 kB/1,660 kB 97%][0m[33m                                                              99% [8 Packages store 0 B][0m[33m                          100% [Working][0m[33m100% [10 Translation-en store 0 B][0m[33m                                  100% [Working][0m[33m100% [9 Components-amd64 store 0 B][0m[33m                                   100% [Working][0m[33m100% [11 Packages store 0 B][0m[33m                            100% [Working][0m              Fetched 4,895 kB in 1s (3,934 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 3%Reading package lists... 3%Reading package lists... 5%Reading package lists... 5%Reading package lists... 5%Reading package lists... 5%Reading package lists... 6%Reading package lists... 6%Reading package lists... 45%Reading package lists... 45%Reading package lists... 63%Reading package lists... 63%Reading package lists... 63%Reading package lists... 63%Reading package lists... 64%Reading package lists... 64%Reading package lists... 67%Reading package lists... 67%Reading package lists... 69%Reading package lists... 69%Reading package lists... 73%Reading package lists... 73%Reading package lists... 75%Reading package lists... 75%Reading package lists... 81%Reading package lists... 81%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 86%Reading package lists... 86%Reading package lists... 87%Reading package lists... 87%Reading package lists... 91%Reading package lists... 91%Reading package lists... 94%Reading package lists... 94%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+85 packages can be upgraded. Run 'apt list --upgradable' to see them.
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+git is already the newest version (1:2.43.0-1ubuntu7.3).
+git set to manually installed.
+The following NEW packages will be installed:
+  gh
+0 upgraded, 1 newly installed, 0 to remove and 85 not upgraded.
+Need to get 8,836 kB of archives.
+After this operation, 45.4 MB of additional disk space will be used.
+[33m0% [Working][0m            Get:1 http://ru.archive.ubuntu.com/ubuntu noble-updates/universe amd64 gh amd64 2.45.0-1ubuntu0.3 [8,836 kB]
+[33m0% [1 gh 4,502 B/8,836 kB 0%][0m[33m49% [1 gh 5,386 kB/8,836 kB 61%][0m[33m                                100% [Working][0m              Fetched 8,836 kB in 1s (12.0 MB/s)
+
+7[0;29r8[1ASelecting previously unselected package gh.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 125689 files and directories currently installed.)
+Preparing to unpack .../gh_2.45.0-1ubuntu0.3_amd64.deb ...
+7[30;0f[42m[30mProgress: [  0%][49m[39m [..................................................................................................] 87[30;0f[42m[30mProgress: [ 20%][49m[39m [###################...............................................................................] 8Unpacking gh (2.45.0-1ubuntu0.3) ...
+7[30;0f[42m[30mProgress: [ 40%][49m[39m [#######################################...........................................................] 8Setting up gh (2.45.0-1ubuntu0.3) ...
+7[30;0f[42m[30mProgress: [ 60%][49m[39m [##########################################################........................................] 87[30;0f[42m[30mProgress: [ 80%][49m[39m [##############################################################################....................] 8Processing triggers for man-db (2.12.0-4build2) ...
+
+7[0;30r8[1A[JScanning processes... [                                                                                                ]Scanning processes... [                                                                                                ]Scanning processes... [=                                                                                               ]Scanning processes... [==                                                                                              ]Scanning processes... [===                                                                                             ]Scanning processes... [====                                                                                            ]Scanning processes... [=====                                                                                           ]Scanning processes... [=====                                                                                           ]Scanning processes... [======                                                                                          ]Scanning processes... [=======                                                                                         ]Scanning processes... [========                                                                                        ]Scanning processes... [=========                                                                                       ]Scanning processes... [==========                                                                                      ]Scanning processes... [===========                                                                                     ]Scanning processes... [===========                                                                                     ]Scanning processes... [============                                                                                    ]Scanning processes... [=============                                                                                   ]Scanning processes... [==============                                                                                  ]Scanning processes... [===============                                                                                 ]Scanning processes... [================                                                                                ]Scanning processes... [================                                                                                ]Scanning processes... [=================                                                                               ]Scanning processes... [==================                                                                              ]Scanning processes... [===================                                                                             ]Scanning processes... [====================                                                                            ]Scanning processes... [=====================                                                                           ]Scanning processes... [======================                                                                          ]Scanning processes... [======================                                                                          ]Scanning processes... [=======================                                                                         ]Scanning processes... [========================                                                                        ]Scanning processes... [=========================                                                                       ]Scanning processes... [==========================                                                                      ]Scanning processes... [===========================                                                                     ]Scanning processes... [============================                                                                    ]Scanning processes... [============================                                                                    ]Scanning processes... [=============================                                                                   ]Scanning processes... [==============================                                                                  ]Scanning processes... [===============================                                                                 ]Scanning processes... [================================                                                                ]Scanning processes... [=================================                                                               ]Scanning processes... [=================================                                                               ]Scanning processes... [==================================                                                              ]Scanning processes... [===================================                                                             ]Scanning processes... [====================================                                                            ]Scanning processes... [=====================================                                                           ]Scanning processes... [======================================                                                          ]Scanning processes... [=======================================                                                         ]Scanning processes... [=======================================                                                         ]Scanning processes... [========================================                                                        ]Scanning processes... [=========================================                                                       ]Scanning processes... [==========================================                                                      ]Scanning processes... [===========================================                                                     ]Scanning processes... [============================================                                                    ]Scanning processes... [=============================================                                                   ]Scanning processes... [=============================================                                                   ]Scanning processes... [==============================================                                                  ]Scanning processes... [===============================================                                                 ]Scanning processes... [================================================                                                ]Scanning processes... [=================================================                                               ]Scanning processes... [==================================================                                              ]Scanning processes... [==================================================                                              ]Scanning processes... [===================================================                                             ]Scanning processes... [====================================================                                            ]Scanning processes... [=====================================================                                           ]Scanning processes... [======================================================                                          ]Scanning processes... [=======================================================                                         ]Scanning processes... [========================================================                                        ]Scanning processes... [========================================================                                        ]Scanning processes... [=========================================================                                       ]Scanning processes... [==========================================================                                      ]Scanning processes... [===========================================================                                     ]Scanning processes... [============================================================                                    ]Scanning processes... [=============================================================                                   ]Scanning processes... [==============================================================                                  ]Scanning processes... [==============================================================                                  ]Scanning processes... [===============================================================                                 ]Scanning processes... [================================================================                                ]Scanning processes... [=================================================================                               ]Scanning processes... [==================================================================                              ]Scanning processes... [===================================================================                             ]Scanning processes... [===================================================================                             ]Scanning processes... [====================================================================                            ]Scanning processes... [=====================================================================                           ]Scanning processes... [======================================================================                          ]Scanning processes... [=======================================================================                         ]Scanning processes... [========================================================================                        ]Scanning processes... [=========================================================================                       ]Scanning processes... [=========================================================================                       ]Scanning processes... [==========================================================================                      ]Scanning processes... [===========================================================================                     ]Scanning processes... [============================================================================                    ]Scanning processes... [=============================================================================                   ]Scanning processes... [==============================================================================                  ]Scanning processes... [===============================================================================                 ]Scanning processes... [===============================================================================                 ]Scanning processes... [================================================================================                ]Scanning processes... [=================================================================================               ]Scanning processes... [==================================================================================              ]Scanning processes... [===================================================================================             ]Scanning processes... [====================================================================================            ]Scanning processes... [====================================================================================            ]Scanning processes... [=====================================================================================           ]Scanning processes... [======================================================================================          ]Scanning processes... [=======================================================================================         ]Scanning processes... [========================================================================================        ]Scanning processes... [=========================================================================================       ]Scanning processes... [==========================================================================================      ]Scanning processes... [==========================================================================================      ]Scanning processes... [===========================================================================================     ]Scanning processes... [============================================================================================    ]Scanning processes... [=============================================================================================   ]Scanning processes... [==============================================================================================  ]Scanning processes... [=============================================================================================== ]Scanning processes... [================================================================================================]Scanning processes...                                                                                                   
+Scanning linux images... [                                                                                             ]Scanning linux images... [=======================                                                                      ]Scanning linux images... [==============================================                                               ]Scanning linux images... [=====================================================================                        ]Scanning linux images... [=============================================================================================]Scanning linux images...                                                                                                
+
+Running kernel seems to be up-to-date.
+
+No services need to be restarted.
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+[?2004h]0;root@eltex-practice2-v41: ~root@eltex-practice2-v41:~# [7mssh-keygen -t ed25519 -f ~/.ssh/eltex-v41[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cssh-keygen -t ed25519 -f ~/.ssh/eltex-v41[K[K[Ksummer
+[?2004lGenerating public/private ed25519 key pair.
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /root/.ssh/eltex-summer
+Your public key has been saved in /root/.ssh/eltex-summer.pub
+The key fingerprint is:
+SHA256:a+YpvPjVXiMK7RGRwsHYrCIKiyMQmfeXUBti1MjTNhk root@eltex-practice2-v41
+The key's randomart image is:
++--[ED25519 256]--+
+| o o+XEo         |
+|+ ..*oX+ .       |
+| o . =+oo        |
+|+ . o o. .       |
+|=o . .  S        |
+|*      . +       |
+|..   .. B o o    |
+|     .oB = o .   |
+|    ..oo= .      |
++----[SHA256]-----+
+[?2004h]0;root@eltex-practice2-v41: ~root@eltex-practice2-v41:~# [7mgh auth login[27mgh auth login
+[?2004l7[?25l8[0G[2K[0;1;92m? [0m[0;1;99mWhat account do you want to log into?[0m  [0;36m[Use arrows to move, type to filter][0m
+[0;1;36m> GitHub.com[0m
+[0;39m  GitHub Enterprise Server[0m
+7[1A[0G[1A[0G8[?25h8[0G[2K[1A[0G[2K[1A[0G[2K[1A[0G[2K[0;1;92m? [0m[0;1;99mWhat account do you want to log into?[0m[0;36m GitHub.com[0m
+7[?25l8[0G[2K[0;1;92m? [0m[0;1;99mWhat is your preferred protocol for Git operations on this host?[0m  [0;36m[Use arrows to move, type to filter][0m
+[0;1;36m> HTTPS[0m
+[0;39m  SSH[0m
+7[1A[0G[1A[0G8[0G[2K[1A[0G[2K[1A[0G[2K[1A[0G[2K[0;1;92m? [0m[0;1;99mWhat is your preferred protocol for Git operations on this host?[0m  [0;36m[Use arrows to move, type to filter][0m
+[0;39m  HTTPS[0m
+[0;1;36m> SSH[0m
+7[1A[0G8[?25h8[0G[2K[1A[0G[2K[1A[0G[2K[1A[0G[2K[0;1;92m? [0m[0;1;99mWhat is your preferred protocol for Git operations on this host?[0m[0;36m SSH[0m
+7[?25l8[0G[2K[0;1;92m? [0m[0;1;99mUpload your SSH public key to your GitHub account?[0m  [0;36m[Use arrows to move, type to filter][0m
+[0;1;36m> /root/.ssh/eltex-summer.pub[0m
+[0;39m  Skip[0m
+7[1A[0G[1A[0G8[?25h8[0G[2K[1A[0G[2K[1A[0G[2K[1A[0G[2K[0;1;92m? [0m[0;1;99mUpload your SSH public key to your GitHub account?[0m[0;36m /root/.ssh/eltex-summer.pub[0m
+[0G[2K[0;1;92m? [0m[0;1;99mTitle for your SSH key: [0m[0;39m(GitHub CLI) [0m[?25l[?25l7[999;999f[6n8[?25h[6nу[1D[0Keltex_[1D[0K-summer[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1B[0G[1A[?25h[0G[2K[0;1;92m? [0m[0;1;99mTitle for your SSH key: [0m[0;36meltex-summer[0m
+7[?25l8[0G[2K[0;1;92m? [0m[0;1;99mHow would you like to authenticate GitHub CLI?[0m  [0;36m[Use arrows to move, type to filter][0m
+[0;1;36m> Login with a web browser[0m
+[0;39m  Paste an authentication token[0m
+7[1A[0G[1A[0G8[0G[2K[1A[0G[2K[1A[0G[2K[1A[0G[2K[0;1;92m? [0m[0;1;99mHow would you like to authenticate GitHub CLI?[0m  [0;36m[Use arrows to move, type to filter][0m
+[0;39m  Login with a web browser[0m
+[0;1;36m> Paste an authentication token[0m
+7[1A[0G8[0G[2K[1A[0G[2K[1A[0G[2K[1A[0G[2K[0;1;92m? [0m[0;1;99mHow would you like to authenticate GitHub CLI?[0m  [0;36m[Use arrows to move, type to filter][0m
+[0;1;36m> Login with a web browser[0m
+[0;39m  Paste an authentication token[0m
+7[1A[0G[1A[0G8[?25h8[0G[2K[1A[0G[2K[1A[0G[2K[1A[0G[2K[0;1;92m? [0m[0;1;99mHow would you like to authenticate GitHub CLI?[0m[0;36m Login with a web browser[0m
+
+[0;33m![0m First copy your one-time code: [0;1;39m38F9-1AA6[0m
+[0;1;39mPress Enter[0m to open github.com in your browser... 
+[0;31m![0m Failed opening a web browser at https://github.com/login/device
+  exec: "xdg-open,x-www-browser,www-browser,wslview": executable file not found in $PATH
+  Please try entering the URL in your browser manually
+[0;32m✓[0m Authentication complete.
+- gh config set -h github.com git_protocol ssh
+[0;32m✓[0m Configured git protocol
+[0;33m![0m Authentication credentials saved in plain text
+[0;32m✓[0m Uploaded the SSH key to your GitHub account: [0;1;39m/root/.ssh/eltex-summer.pub[0m
+[0;32m✓[0m Logged in as [0;1;39mYAkuweva[0m
+[?2004h]0;root@eltex-practice2-v41: ~root@eltex-practice2-v41:~# gh auth setup-git --hostname github.comgh auth setup-git --hostname github.com[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7mgh auth setup-git --hostname github.com[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgh auth setup-git --hostname github.com
+[?2004l[?2004h]0;root@eltex-practice2-v41: ~root@eltex-practice2-v41:~# [7mgh auth status[27mgh auth status
+[?2004l[0;1;39mgithub.com[0m
+  [0;32m✓[0m Logged in to github.com account [0;1;39mYAkuweva[0m (/root/.config/gh/hosts.yml)
+  - Active account: [0;1;39mtrue[0m
+  - Git operations protocol: [0;1;39mssh[0m
+  - Token: [0;1;39mgho_************************************[0m
+  - Token scopes: [0;1;39m'admin:public_key', 'gist', 'read:org', 'repo'[0m
+[?2004h]0;root@eltex-practice2-v41: ~root@eltex-practice2-v41:~# [7mgh repo create --public eltex-practice2[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgh repo create --public eltex-practice2[K[K[K[K[K[K[K[K[Ksummer
+[?2004l[0;32m✓[0m Created repository YAkuweva/eltex-summer on GitHub
+  https://github.com/YAkuweva/eltex-summer
+[?2004h]0;root@eltex-practice2-v41: ~root@eltex-practice2-v41:~# [7mmkdir ~/eltex-summer[27m
+[7mcd ~/eltex-summer[27m[A]0;root@eltex-practice2-v41: ~root@eltex-practice2-v41:~# mkdir ~/eltex-summer
+cd ~/eltex-summer
+[?2004l[?2004h]0;root@eltex-practice2-v41: ~/eltex-summerroot@eltex-practice2-v41:~/eltex-summer# [7mmkdir -p module1/task2[27mmkdir -p module1/task2
+[?2004l[?2004h]0;root@eltex-practice2-v41: ~/eltex-summerroot@eltex-practice2-v41:~/eltex-summer# [7mecho "# Eltex Summer Practice" > README.md[27mecho "# Eltex Summer Practice" > README.md
+[?2004l[?2004h]0;root@eltex-practice2-v41: ~/eltex-summerroot@eltex-practice2-v41:~/eltex-summer# [7mls -R[27mls -R
+[?2004l.:
+[0m[01;34mmodule1[0m  README.md
+
+./module1:
+[01;34mtask2[0m
+
+./module1/task2:
+[?2004h]0;root@eltex-practice2-v41: ~/eltex-summerroot@eltex-practice2-v41:~/eltex-summer# [7mgit init[27mgit init
+[?2004lInitialized empty Git repository in /root/eltex-summer/.git/
+[?2004h]0;root@eltex-practice2-v41: ~/eltex-summerroot@eltex-practice2-v41:~/eltex-summer# [7mgit add .[27mgit add .
+[?2004l[?2004h]0;root@eltex-practice2-v41: ~/eltex-summerroot@eltex-practice2-v41:~/eltex-summer# [7mgit status[27mgit status
+[?2004lOn branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   README.md[m
+
+[?2004h]0;root@eltex-practice2-v41: ~/eltex-summerroot@eltex-practice2-v41:~/eltex-summer# git status[K[7mgit commit -m "first commit"[27mgit commit -m "first commit"
+[?2004l[main (root-commit) b13b197] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+[?2004h]0;root@eltex-practice2-v41: ~/eltex-summerroot@eltex-practice2-v41:~/eltex-summer# [7mgh repo view --json sshUrl -q .sshUrl[27mgh repo view --json sshUrl -q .sshUrl
+[?2004lno git remotes found
+[?2004h]0;root@eltex-practice2-v41: ~/eltex-summerroot@eltex-practice2-v41:~/eltex-summer# [7mgit remote add origin git@github.com:YAkuweva/eltex-summer.git[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit remote add origin git@github.com:YAkuweva/eltex-summer.git
+[?2004l[?2004h]0;root@eltex-practice2-v41: ~/eltex-summerroot@eltex-practice2-v41:~/eltex-summer# [7mgit remote -v[27mgit remote -v
+[?2004lorigin	git@github.com:YAkuweva/eltex-summer.git (fetch)
+origin	git@github.com:YAkuweva/eltex-summer.git (push)
+[?2004h]0;root@eltex-practice2-v41: ~/eltex-summerroot@eltex-practice2-v41:~/eltex-summer# [7mgit push -u origin main[27mgit push -u origin main
+[?2004lThe authenticity of host 'github.com (140.82.121.3)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[?2004h]0;root@eltex-practice2-v41: ~/eltex-summerroot@eltex-practice2-v41:~/eltex-summer# [7mls -la ~/.ssh[27mls -la ~/.ssh
+[?2004ltotal 24
+drwx------  2 root root 4096 Jul 10 05:29 [0m[01;34m.[0m
+drwx------ 10 root root 4096 Jul 10 05:24 [01;34m..[0m
+-rw-------  1 root root  581 Jul  8 04:33 authorized_keys
+-rw-------  1 root root  419 Jul 10 05:07 eltex-summer
+-rw-r--r--  1 root root  106 Jul 10 05:07 eltex-summer.pub
+-rw-r--r--  1 root root  142 Jul 10 05:29 known_hosts
+[?2004h]0;root@eltex-practice2-v41: ~/eltex-summerroot@eltex-practice2-v41:~/eltex-summer# [7mssh -T git@github.com[27mssh -T git@github.com
+[?2004lgit@github.com: Permission denied (publickey).
+[?2004h]0;root@eltex-practice2-v41: ~/eltex-summerroot@eltex-practice2-v41:~/eltex-summer# [7mnano ~/.ssh/config[27mnano ~/.ssh/config
+[?2004l[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;55H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 7.2                                        /root/.ssh/config                                                 [1;119H(B[m[29d(B[0;7m^G(B[m Help[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d[?12l[?25h[?25l[28d[K[1;73H(B[0;7m*[119G(B[m[2dHost github.com[3;5HHostName github.com[4;5HUser git[5;5HIdentityFile ~/.ssh/eltex-summer[?12l[?25h[?25l[29;16H[15X[29;31H(B[0;7mM-D(B[m DOS Format       [29;61H(B[0;7mM-A(B[m Append[16X[29;93H(B[0;7mB(B[m Backup File[K[30;2H(B[0;7mC(B[m Cancel[16G[15X[30;31H(B[0;7mM-M(B[m Mac Format         [61G(B[0;7mM-P(B[m Prepend[19X[30;91H(B[0;7m^T(B[m Browse[K[28d(B[0;7mFile Name to Write: /root/.ssh/config                                                                                   [28;38H(B[m[?12l[?25h[?25l[28;53H[1K (B[0;7m[ Writing... ](B[m[K[1;73H(B[0;7m [119G(B[m[28;52H(B[0;7m[ Wrote 4 lines ](B[m[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location[93G(B[0;7mU(B[m Undo       (B[0;7mM-A(B[m Set Mark[30;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m 
