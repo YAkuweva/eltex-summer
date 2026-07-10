@@ -216,4 +216,180 @@ drwx------ 10 root root 4096 Jul 10 05:24 [01;34m..[0m
 [?2004h]0;root@eltex-practice2-v41: ~/eltex-summerroot@eltex-practice2-v41:~/eltex-summer# [7mssh -T git@github.com[27mssh -T git@github.com
 [?2004lgit@github.com: Permission denied (publickey).
 [?2004h]0;root@eltex-practice2-v41: ~/eltex-summerroot@eltex-practice2-v41:~/eltex-summer# [7mnano ~/.ssh/config[27mnano ~/.ssh/config
-[?2004l[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;55H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 7.2                                        /root/.ssh/config                                                 [1;119H(B[m[29d(B[0;7m^G(B[m Help[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d[?12l[?25h[?25l[28d[K[1;73H(B[0;7m*[119G(B[m[2dHost github.com[3;5HHostName github.com[4;5HUser git[5;5HIdentityFile ~/.ssh/eltex-summer[?12l[?25h[?25l[29;16H[15X[29;31H(B[0;7mM-D(B[m DOS Format       [29;61H(B[0;7mM-A(B[m Append[16X[29;93H(B[0;7mB(B[m Backup File[K[30;2H(B[0;7mC(B[m Cancel[16G[15X[30;31H(B[0;7mM-M(B[m Mac Format         [61G(B[0;7mM-P(B[m Prepend[19X[30;91H(B[0;7m^T(B[m Browse[K[28d(B[0;7mFile Name to Write: /root/.ssh/config                                                                                   [28;38H(B[m[?12l[?25h[?25l[28;53H[1K (B[0;7m[ Writing... ](B[m[K[1;73H(B[0;7m [119G(B[m[28;52H(B[0;7m[ Wrote 4 lines ](B[m[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location[93G(B[0;7mU(B[m Undo       (B[0;7mM-A(B[m Set Mark[30;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m 
+[?2004l[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;55H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 7.2                                        /root/.ssh/config                                                 [1;119H(B[m[29d(B[0;7m^G(B[m Help[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d[?12l[?25h[?25l[28d[K[1;73H(B[0;7m*[119G(B[m[2dHost github.com[3;5HHostName github.com[4;5HUser git[5;5HIdentityFile ~/.ssh/eltex-summer[?12l[?25h[?25l[29;16H[15X[29;31H(B[0;7mM-D(B[m DOS Format       [29;61H(B[0;7mM-A(B[m Append[16X[29;93H(B[0;7mB(B[m Backup File[K[30;2H(B[0;7mC(B[m Cancel[16G[15X[30;31H(B[0;7mM-M(B[m Mac Format         [61G(B[0;7mM-P(B[m Prepend[19X[30;91H(B[0;7m^T(B[m Browse[K[28d(B[0;7mFile Name to Write: /root/.ssh/config                                                                                   [28;38H(B[m[?12l[?25h[?25l[28;53H[1K (B[0;7m[ Writing... ](B[m[K[1;73H(B[0;7m [119G(B[m[28;52H(B[0;7m[ Wrote 4 lines ](B[m[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[29;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location[93G(B[0;7mU(B[m Undo       (B[0;7mM-A(B[m Set Mark[30;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo [106G(B[0;7mM-6(B[m Copy[?12l[?25h[5;37H[?25l[28d[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;root@eltex-practice2-v41: ~/eltex-summerroot@eltex-practice2-v41:~/eltex-summer# [7mchmod 600 ~/.ssh/config[27m
+[7mchmod 600 ~/.ssh/eltex-summer[27m[A]0;root@eltex-practice2-v41: ~/eltex-summerroot@eltex-practice2-v41:~/eltex-summer# chmod 600 ~/.ssh/config
+chmod 600 ~/.ssh/eltex-summer
+[?2004l[?2004h]0;root@eltex-practice2-v41: ~/eltex-summerroot@eltex-practice2-v41:~/eltex-summer# [7mssh -T git@github.com[27mssh -T git@github.com
+[?2004lHi YAkuweva! You've successfully authenticated, but GitHub does not provide shell access.
+[?2004h]0;root@eltex-practice2-v41: ~/eltex-summerroot@eltex-practice2-v41:~/eltex-summer# [7mgit push -u origin main[27mgit push -u origin main
+[?2004lEnumerating objects: 3, done.
+Counting objects:  33% (1/3)Counting objects:  66% (2/3)Counting objects: 100% (3/3)Counting objects: 100% (3/3), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 235 bytes | 235.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:YAkuweva/eltex-summer.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+[?2004h]0;root@eltex-practice2-v41: ~/eltex-summerroot@eltex-practice2-v41:~/eltex-summer# [7mmkdir -p module1/task2[27mmkdir -p module1/task2
+[?2004l[?2004h]0;root@eltex-practice2-v41: ~/eltex-summerroot@eltex-practice2-v41:~/eltex-summer# [7mls -R[27mls -R
+[?2004l.:
+[0m[01;34mmodule1[0m  README.md
+
+./module1:
+[01;34mtask2[0m
+
+./module1/task2:
+[?2004h]0;root@eltex-practice2-v41: ~/eltex-summerroot@eltex-practice2-v41:~/eltex-summer# [7mcd ~/eltex-summer[27m
+[7mls -R module1[27m[A]0;root@eltex-practice2-v41: ~/eltex-summerroot@eltex-practice2-v41:~/eltex-summer# cd ~/eltex-summer
+ls -R module1
+[?2004lmodule1:
+[0m[01;34mtask2[0m
+
+module1/task2:
+practice2_eltex-v41_part1.log  practice2_eltex-v41_part2.log  practice2_eltex-v41_part3.log
+[?2004h]0;root@eltex-practice2-v41: ~/eltex-summerroot@eltex-practice2-v41:~/eltex-summer# [7mgit add .[27m
+[7mgit status[27m[A]0;root@eltex-practice2-v41: ~/eltex-summerroot@eltex-practice2-v41:~/eltex-summer# git add .
+git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   module1/task2/practice2_eltex-v41_part1.log[m
+	[32mnew file:   module1/task2/practice2_eltex-v41_part2.log[m
+	[32mnew file:   module1/task2/practice2_eltex-v41_part3.log[m
+
+[?2004h]0;root@eltex-practice2-v41: ~/eltex-summerroot@eltex-practice2-v41:~/eltex-summer# [7mgit commit -m "add practice2 reports"[27m
+[7mgit push[27m[A]0;root@eltex-practice2-v41: ~/eltex-summerroot@eltex-practice2-v41:~/eltex-summer# git commit -m "add practice2 reports"
+git push
+[?2004l[main b8bf3e1] add practice2 reports
+ 3 files changed, 7344 insertions(+)
+ create mode 100644 module1/task2/practice2_eltex-v41_part1.log
+ create mode 100644 module1/task2/practice2_eltex-v41_part2.log
+ create mode 100644 module1/task2/practice2_eltex-v41_part3.log
+Enumerating objects: 8, done.
+Counting objects:  12% (1/8)Counting objects:  25% (2/8)Counting objects:  37% (3/8)Counting objects:  50% (4/8)Counting objects:  62% (5/8)Counting objects:  75% (6/8)Counting objects:  87% (7/8)Counting objects: 100% (8/8)Counting objects: 100% (8/8), done.
+Delta compression using up to 2 threads
+Compressing objects:  16% (1/6)Compressing objects:  33% (2/6)Compressing objects:  50% (3/6)Compressing objects:  66% (4/6)Compressing objects:  83% (5/6)Compressing objects: 100% (6/6)Compressing objects: 100% (6/6), done.
+Writing objects:  14% (1/7)Writing objects:  28% (2/7)Writing objects:  42% (3/7)Writing objects:  57% (4/7)Writing objects:  71% (5/7)Writing objects:  85% (6/7)Writing objects: 100% (7/7)Writing objects: 100% (7/7), 77.92 KiB | 11.13 MiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:YAkuweva/eltex-summer.git
+   b13b197..b8bf3e1  main -> main
+[?2004h]0;root@eltex-practice2-v41: ~/eltex-summerroot@eltex-practice2-v41:~/eltex-summer# [7mcd ~[27m
+[7mmkdir ~/eltex-summer_clone[27m
+[7mcd ~/eltex-summer_clone[27m[A[A]0;root@eltex-practice2-v41: ~/eltex-summerroot@eltex-practice2-v41:~/eltex-summer# cd ~
+mkdir ~/eltex-summer_clone
+cd ~/eltex-summer_clone
+[?2004l[?2004h]0;root@eltex-practice2-v41: ~/eltex-summer_cloneroot@eltex-practice2-v41:~/eltex-summer_clone# [7mgit clone git@github.com:YAkuweva/eltex-summer.git .[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit clone git@github.com:YAkuweva/eltex-summer.git .
+[?2004lCloning into '.'...
+remote: Enumerating objects: 10, done.[K
+remote: Counting objects:  10% (1/10)[Kremote: Counting objects:  20% (2/10)[Kremote: Counting objects:  30% (3/10)[Kremote: Counting objects:  40% (4/10)[Kremote: Counting objects:  50% (5/10)[Kremote: Counting objects:  60% (6/10)[Kremote: Counting objects:  70% (7/10)[Kremote: Counting objects:  80% (8/10)[Kremote: Counting objects:  90% (9/10)[Kremote: Counting objects: 100% (10/10)[Kremote: Counting objects: 100% (10/10), done.[K
+remote: Compressing objects:  14% (1/7)[Kremote: Compressing objects:  28% (2/7)[Kremote: Compressing objects:  42% (3/7)[Kremote: Compressing objects:  57% (4/7)[Kremote: Compressing objects:  71% (5/7)[Kremote: Compressing objects:  85% (6/7)[Kremote: Compressing objects: 100% (7/7)[Kremote: Compressing objects: 100% (7/7), done.[K
+Receiving objects:  10% (1/10)Receiving objects:  20% (2/10)Receiving objects:  30% (3/10)Receiving objects:  40% (4/10)Receiving objects:  50% (5/10)Receiving objects:  60% (6/10)remote: Total 10 (delta 0), reused 10 (delta 0), pack-reused 0 (from 0)[K
+Receiving objects:  70% (7/10)Receiving objects:  80% (8/10)Receiving objects:  90% (9/10)Receiving objects: 100% (10/10)Receiving objects: 100% (10/10), 78.12 KiB | 1.47 MiB/s, done.
+[?2004h]0;root@eltex-practice2-v41: ~/eltex-summer_cloneroot@eltex-practice2-v41:~/eltex-summer_clone# [7mls -R[27mls -R
+[?2004l.:
+[0m[01;34mmodule1[0m  README.md
+
+./module1:
+[01;34mtask2[0m
+
+./module1/task2:
+practice2_eltex-v41_part1.log  practice2_eltex-v41_part2.log  practice2_eltex-v41_part3.log
+[?2004h]0;root@eltex-practice2-v41: ~/eltex-summer_cloneroot@eltex-practice2-v41:~/eltex-summer_clone# [7mcd ~/eltex-summer[27mcd ~/eltex-summer
+[?2004l[?2004h]0;root@eltex-practice2-v41: ~/eltex-summerroot@eltex-practice2-v41:~/eltex-summer# [7mecho "Practice 2 completed" >> README.md[27mecho "Practice 2 completed" >> README.md
+[?2004l[?2004h]0;root@eltex-practice2-v41: ~/eltex-summerroot@eltex-practice2-v41:~/eltex-summer# [7mcat README.md[27mcat README.md
+[?2004l# Eltex Summer Practice
+Practice 2 completed
+[?2004h]0;root@eltex-practice2-v41: ~/eltex-summerroot@eltex-practice2-v41:~/eltex-summer# [7mgit add README.md[27m
+[7mgit commit -m "update README"[27m
+[7mgit push[27m[A[A]0;root@eltex-practice2-v41: ~/eltex-summerroot@eltex-practice2-v41:~/eltex-summer# git add README.md
+git commit -m "update README"
+git push
+[?2004l[main b154f84] update README
+ 1 file changed, 1 insertion(+)
+Enumerating objects: 5, done.
+Counting objects:  20% (1/5)Counting objects:  40% (2/5)Counting objects:  60% (3/5)Counting objects:  80% (4/5)Counting objects: 100% (5/5)Counting objects: 100% (5/5), done.
+Delta compression using up to 2 threads
+Compressing objects:  50% (1/2)Compressing objects: 100% (2/2)Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 320 bytes | 320.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:YAkuweva/eltex-summer.git
+   b8bf3e1..b154f84  main -> main
+[?2004h]0;root@eltex-practice2-v41: ~/eltex-summerroot@eltex-practice2-v41:~/eltex-summer# м[K[7mcd ~/eltex-summer_clone[27mcd ~/eltex-summer_clone
+[?2004l[?2004h]0;root@eltex-practice2-v41: ~/eltex-summer_cloneroot@eltex-practice2-v41:~/eltex-summer_clone# [7mgit fetch[27mgit fetch
+[?2004lremote: Enumerating objects: 5, done.[K
+remote: Counting objects:  20% (1/5)[Kremote: Counting objects:  40% (2/5)[Kremote: Counting objects:  60% (3/5)[Kremote: Counting objects:  80% (4/5)[Kremote: Counting objects: 100% (5/5)[Kremote: Counting objects: 100% (5/5), done.[K
+remote: Compressing objects:  50% (1/2)[Kremote: Compressing objects: 100% (2/2)[Kremote: Compressing objects: 100% (2/2), done.[K
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0 (from 0)[K
+Unpacking objects:  33% (1/3)Unpacking objects:  66% (2/3)Unpacking objects: 100% (3/3)Unpacking objects: 100% (3/3), 300 bytes | 300.00 KiB/s, done.
+From github.com:YAkuweva/eltex-summer
+   b8bf3e1..b154f84  main       -> origin/main
+[?2004h]0;root@eltex-practice2-v41: ~/eltex-summer_cloneroot@eltex-practice2-v41:~/eltex-summer_clone# [7mgit log origin/main[27mgit log origin/main
+[?2004l[?1h=[33mcommit b154f848e08035231eafb43a504358855873a427[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Yakuweva <yakualin@gmail.com>[m
+Date:   Fri Jul 10 05:40:46 2026 +0000[m
+[m
+    update README[m
+[m
+[33mcommit b8bf3e1d3e0e6b9ef96d4f1d6f956ccaf700e3b9[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m[m
+Author: Yakuweva <yakualin@gmail.com>[m
+Date:   Fri Jul 10 05:37:00 2026 +0000[m
+[m
+    add practice2 reports[m
+[m
+[33mcommit b13b19725b560bd9a79b3cf290f2ab21559008ce[m[m
+Author: Yakuweva <yakualin@gmail.com>[m
+Date:   Fri Jul 10 05:26:29 2026 +0000[m
+[m
+    first commit[m
+[K[?1l>[?2004h]0;root@eltex-practice2-v41: ~/eltex-summer_cloneroot@eltex-practice2-v41:~/eltex-summer_clone# git log origin/main[K[7mgit diff main origin/main[27mgit diff main origin/main
+[?2004l[?1h=[1mdiff --git a/README.md b/README.md[m[m
+[1mindex f81aa2e..803dc6f 100644[m[m
+[1m--- a/README.md[m[m
+[1m+++ b/README.md[m[m
+[36m@@ -1 +1,2 @@[m[m
+ # Eltex Summer Practice[m[m
+[32m+[m[32mPractice 2 completed[m[m
+[K[?1l>[?2004h]0;root@eltex-practice2-v41: ~/eltex-summer_cloneroot@eltex-practice2-v41:~/eltex-summer_clone# [7mgit merge origin/main[27mgit merge origin/main
+[?2004lUpdating b8bf3e1..b154f84
+Fast-forward
+ README.md | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+[?2004h]0;root@eltex-practice2-v41: ~/eltex-summer_cloneroot@eltex-practice2-v41:~/eltex-summer_clone# [7mcd ~/eltex-summer[27mcd ~/eltex-summer
+[?2004l[?2004h]0;root@eltex-practice2-v41: ~/eltex-summerroot@eltex-practice2-v41:~/eltex-summer# [7mmkdir -p module1/task2/practice2_report[27mmkdir -p module1/task2/practice2_report[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7mmkdir -p module1/task1[27mmkdir -p module1/task1
+[?2004l[?2004h]0;root@eltex-practice2-v41: ~/eltex-summerroot@eltex-practice2-v41:~/eltex-summer# [7mcd ~/eltex-summer[27m
+[7mls -R module1[27m[A]0;root@eltex-practice2-v41: ~/eltex-summerroot@eltex-practice2-v41:~/eltex-summer# cd ~/eltex-summer
+ls -R module1
+[?2004lmodule1:
+[0m[01;34mtask1[0m  [01;34mtask2[0m
+
+module1/task1:
+eltex-v41_part3_gt20M.log  eltex-v41_part3.log  eltex-v41_part.log
+
+module1/task2:
+practice2_eltex-v41_part1.log  practice2_eltex-v41_part2.log  practice2_eltex-v41_part3.log
+[?2004h]0;root@eltex-practice2-v41: ~/eltex-summerroot@eltex-practice2-v41:~/eltex-summer# [7mgit add .[27m
+[7mgit commit -m "add practice1 reports"[27m
+[7mgit push[27m[A[A]0;root@eltex-practice2-v41: ~/eltex-summerroot@eltex-practice2-v41:~/eltex-summer# git add .
+git commit -m "add practice1 reports"
+git push
+[?2004l[main 5ba1fa5] add practice1 reports
+ 3 files changed, 329 insertions(+)
+ create mode 100644 module1/task1/eltex-v41_part.log
+ create mode 100644 module1/task1/eltex-v41_part3.log
+ create mode 100644 module1/task1/eltex-v41_part3_gt20M.log
+Enumerating objects: 9, done.
+Counting objects:  11% (1/9)Counting objects:  22% (2/9)Counting objects:  33% (3/9)Counting objects:  44% (4/9)Counting objects:  55% (5/9)Counting objects:  66% (6/9)Counting objects:  77% (7/9)Counting objects:  88% (8/9)Counting objects: 100% (9/9)Counting objects: 100% (9/9), done.
+Delta compression using up to 2 threads
+Compressing objects:  14% (1/7)Compressing objects:  28% (2/7)Compressing objects:  42% (3/7)Compressing objects:  57% (4/7)Compressing objects:  71% (5/7)Compressing objects:  85% (6/7)Compressing objects: 100% (7/7)Compressing objects: 100% (7/7), done.
+Writing objects:  14% (1/7)Writing objects:  28% (2/7)Writing objects:  42% (3/7)Writing objects:  57% (4/7)Writing objects:  71% (5/7)Writing objects:  85% (6/7)Writing objects: 100% (7/7)Writing objects: 100% (7/7), 4.00 KiB | 4.00 MiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:YAkuweva/eltex-summer.git
+   b154f84..5ba1fa5  main -> main
+[?2004h]0;root@eltex-practice2-v41: ~/eltex-summerroot@eltex-practice2-v41:~/eltex-summer# у[Kexit
+[?2004llogout
+Connection to 172.16.9.215 closed.
+[?2004h]0;eltex-v41@eltex-2026-summer: ~[01;32meltex-v41@eltex-2026-summer[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2026-07-10 12:52:52+07:00 [COMMAND_EXIT_CODE="0"]
