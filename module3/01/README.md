@@ -1,8 +1,11 @@
 Задание 1 (fork + файлы + каналы)
 
 Сборка: make
+
 Очистка: make clean
+
 Без именованного канала: ./01 file1.txt file2.txt
+
 С именованным каналом: ./01 -p mypipe file1.txt file2.txt
 Тестирование: ./test.sh
 
