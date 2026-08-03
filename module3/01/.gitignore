@@ -1,0 +1,26 @@
+01
+*.o
+*.exe
+*.out
+
+*.copy
+
+mypipe
+mypipe2
+pipe*
+
+*.log
+error.log
+
+*.tmp
+*.swp
+*.swo
+*~
+
+# test1.txt
+# test2.txt
+# test3.txt
+# empty.txt
+
+core
+*.core
