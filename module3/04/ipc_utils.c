@@ -49,7 +49,6 @@ void cleanup_shared_memory() {
 
 
 int init_semaphore(key_t key) {
-    // Создаем набор из одного семафора
     semid = semget(key, 1, 0666 | IPC_CREAT);
     if (semid == -1) {
         perror("semget");
