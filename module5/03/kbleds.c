@@ -79,7 +79,6 @@ static int __init kbleds_init(void)
         return -ENODEV;
     }
     
-    /* Создаем директорию в sysfs: /sys/kernel/kbleds */
     kbleds_kobject = kobject_create_and_add("kbleds", kernel_kobj);
     if (!kbleds_kobject) {
         printk(KERN_ERR "kbleds: Не удалось создать kobject\n");
