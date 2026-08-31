@@ -19,8 +19,7 @@ MODULE_DESCRIPTION("Модуль для фильтрации исходящих 
 static char blocked_ips[MAX_IPS][IP_STR_LEN];
 static int ip_count = 0;
 
-static unsigned int firewall_hook(void *priv, struct sk_buff *skb,
-                                  const struct nf_hook_state *state)
+static unsigned int firewall_hook(void *priv, struct sk_buff *skb, const struct nf_hook_state *state)
 {
     struct iphdr *ip_header;
     char ip_str[IP_STR_LEN];
@@ -46,8 +45,7 @@ static unsigned int firewall_hook(void *priv, struct sk_buff *skb,
     return NF_ACCEPT;
 }
 
-static ssize_t firewall_read(struct file *file, char __user *buf,
-                             size_t len, loff_t *offset)
+static ssize_t firewall_read(struct file *file, char __user *buf, size_t len, loff_t *offset)
 {
     char page[512];
     int pos = 0;
@@ -55,15 +53,9 @@ static ssize_t firewall_read(struct file *file, char __user *buf,
 
     if (*offset > 0)
         return 0;
-
-    pos += snprintf(page + pos, sizeof(page) - pos,
-                    "Всего адресов: %d\n", ip_count);
-
-    for (i = 0; i < ip_count; i++) {
-        pos += snprintf(page + pos, sizeof(page) - pos,
-                        "%s\n", blocked_ips[i]);
+    pos += snprintf(page + pos, sizeof(page) - pos, "Всего адресов: %d\n", ip_count);
+    for (i = 0; i < ip_count; i++) { pos += snprintf(page + pos, sizeof(page) - pos, "%s\n", blocked_ips[i]);
     }
-
     if (copy_to_user(buf, page, pos))
         return -EFAULT;
 
@@ -71,8 +63,7 @@ static ssize_t firewall_read(struct file *file, char __user *buf,
     return pos;
 }
 
-static ssize_t firewall_write(struct file *file, const char __user *buf,
-                              size_t len, loff_t *offset)
+static ssize_t firewall_write(struct file *file, const char __user *buf, size_t len, loff_t *offset)
 {
     char command[64];
     char ip[IP_STR_LEN];
@@ -80,14 +71,11 @@ static ssize_t firewall_write(struct file *file, const char __user *buf,
 
     if (len >= sizeof(command))
         return -EINVAL;
-
     if (copy_from_user(command, buf, len))
         return -EFAULT;
-
     command[len] = '\0';
     if (command[len - 1] == '\n')
         command[len - 1] = '\0';
-
     if (strncmp(command, "add ", 4) == 0) {
         strcpy(ip, command + 4);
 
